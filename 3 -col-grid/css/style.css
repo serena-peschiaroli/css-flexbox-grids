@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    background-color: inherit;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    height: 80px;
+    background-color: orange;
+}
+nav {
+    background-color: lightblue;
+    padding: 1rem;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    background-color: blue;
+    color: white;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+main {
+    background-color: palevioletred;
+    padding: 1rem;
+}
+
+aside {
+    background-color: lightgreen;
+    padding: 1rem;
+}
