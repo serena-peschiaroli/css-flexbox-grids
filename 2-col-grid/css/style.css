@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* COMMON */
+/* layout */
+.wrapper {
+    display: flex;
+}
+nav {
+    background-color: lightskyblue;
+    width: 25%;
+   
+}
+main {
+    background-color: lightgreen;
+    width: 75%;
+}
+
+/* SIDEBAR */
+
+/* MAIN */
